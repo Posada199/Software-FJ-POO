@@ -1,0 +1,46 @@
+[2026-11-21 07:58:28] [INFO] Cliente registrado: Cliente[C01] Laura Gómez | Correo: laura@fj.com | Tel: 3105551234
+[2026-11-21 07:58:28] [AUDITORIA] Intento de registro de cliente ID='C01' finalizado.
+[2026-11-21 07:58:28] [ERROR] Fallo al registrar cliente 'C02': Correo electrónico inválido: 'correo-no-valido'.
+[2026-11-21 07:58:28] [AUDITORIA] Intento de registro de cliente ID='C02' finalizado.
+[2026-11-21 07:58:28] [INFO] Cliente registrado: Cliente[C03] Andrés Pérez | Correo: andres@empresa.co | Tel: 3124447766
+[2026-11-21 07:58:28] [AUDITORIA] Intento de registro de cliente ID='C03' finalizado.
+[2026-11-21 07:58:28] [INFO] Servicio agregado: [Sala] SAL-1 - Sala Conferencias A | Cap: 20 personas | Tarifa/h: $80.00 | Disponible
+[2026-11-21 07:58:28] [AUDITORIA] Intento de alta de servicio 'SAL-1' finalizado.
+[2026-11-21 07:58:28] [INFO] Servicio agregado: [Equipo] EQ-1 - Laptop Workstation (Portátil) | Tarifa/día: $45.00 | Disponible
+[2026-11-21 07:58:28] [AUDITORIA] Intento de alta de servicio 'EQ-1' finalizado.
+[2026-11-21 07:58:28] [INFO] Servicio agregado: [Asesoría] ASE-1 - Arquitectura Cloud [DevOps/Cloud] | Tarifa/h: $120.00 | Disponible
+[2026-11-21 07:58:28] [AUDITORIA] Intento de alta de servicio 'ASE-1' finalizado.
+[2026-11-21 07:58:28] [INFO] Reserva R01 procesada para Laura Gómez (Sala Conferencias A) por $257.04.
+[2026-11-21 07:58:28] [AUDITORIA] Ciclo de operación de reserva 'R01' cerrado.
+[2026-11-21 07:58:28] [INFO] Reserva R02 procesada para Andrés Pérez (Arquitectura Cloud) por $571.20.
+[2026-11-21 07:58:28] [AUDITORIA] Ciclo de operación de reserva 'R02' cerrado.
+[2026-11-21 07:58:28] [ERROR] Error en reserva 'R03': Cliente con ID 'C99' no encontrado.
+[2026-11-21 07:58:28] [AUDITORIA] Ciclo de operación de reserva 'R03' cerrado.
+[2026-11-21 07:58:28] [ERROR] Error en reserva 'R04': El alquiler de equipo debe ser de 1 a 365 días.
+[2026-11-21 07:58:28] [AUDITORIA] Ciclo de operación de reserva 'R04' cerrado.
+[2026-11-21 07:58:28] [INFO] Reserva creada en estado PENDIENTE: Reserva[R05] Estado=PENDIENTE | Cliente=Laura Gómez | Servicio=EQ-1 | Duración=2.0 | Total=$90.00
+[2026-11-21 07:58:28] [AUDITORIA] Ciclo de operación de reserva 'R05' cerrado.
+[2026-11-21 07:58:28] [INFO] Reserva R05 cancelada correctamente.
+[2026-11-21 08:09:03] [INFO] Cliente registrado: Cliente[C01] Laura Gómez | Correo: laura@fj.com | Tel: 3105551234
+[2026-11-21 08:09:03] [AUDITORIA] Intento de registro de cliente ID='C01' finalizado.
+[2026-11-21 08:09:03] [ERROR] Fallo al registrar cliente 'C02': Correo electrónico inválido: 'correo-no-valido'.
+[2026-11-21 08:09:03] [AUDITORIA] Intento de registro de cliente ID='C02' finalizado.
+[2026-11-21 08:09:03] [INFO] Cliente registrado: Cliente[C03] Andrés Pérez | Correo: andres@empresa.co | Tel: 3124447766
+[2026-11-21 08:09:03] [AUDITORIA] Intento de registro de cliente ID='C03' finalizado.
+[2026-11-21 08:09:03] [INFO] Servicio agregado: [Sala] SAL-1 - Sala Conferencias A | Cap: 20 personas | Tarifa/h: $80.00 | Disponible
+[2026-11-21 08:09:03] [AUDITORIA] Intento de alta de servicio 'SAL-1' finalizado.
+[2026-11-21 08:09:03] [INFO] Servicio agregado: [Equipo] EQ-1 - Laptop Workstation (Portátil) | Tarifa/día: $45.00 | Disponible
+[2026-11-21 08:09:03] [AUDITORIA] Intento de alta de servicio 'EQ-1' finalizado.
+[2026-11-21 08:09:03] [INFO] Servicio agregado: [Asesoría] ASE-1 - Arquitectura Cloud [DevOps/Cloud] | Tarifa/h: $120.00 | Disponible
+[2026-11-21 08:09:03] [AUDITORIA] Intento de alta de servicio 'ASE-1' finalizado.
+[2026-11-21 08:09:03] [INFO] Reserva R01 procesada para Laura Gómez (Sala Conferencias A) por $257.04.
+[2026-11-21 08:09:03] [AUDITORIA] Ciclo de operación de reserva 'R01' cerrado.
+[2026-11-21 08:09:03] [INFO] Reserva R02 procesada para Andrés Pérez (Arquitectura Cloud) por $571.20.
+[2026-11-21 08:09:03] [AUDITORIA] Ciclo de operación de reserva 'R02' cerrado.
+[2026-11-21 08:09:03] [ERROR] Error en reserva 'R03': Cliente con ID 'C99' no encontrado.
+[2026-11-21 08:09:03] [AUDITORIA] Ciclo de operación de reserva 'R03' cerrado.
+[2026-11-21 08:09:03] [ERROR] Error en reserva 'R04': El alquiler de equipo debe ser de 1 a 365 días.
+[2026-11-21 08:09:03] [AUDITORIA] Ciclo de operación de reserva 'R04' cerrado.
+[2026-11-21 08:09:03] [INFO] Reserva creada en estado PENDIENTE: Reserva[R05] Estado=PENDIENTE | Cliente=Laura Gómez | Servicio=EQ-1 | Duración=2.0 | Total=$90.00
+[2026-11-21 08:09:03] [AUDITORIA] Ciclo de operación de reserva 'R05' cerrado.
+[2026-11-21 08:09:03] [INFO] Reserva R05 cancelada correctamente.
